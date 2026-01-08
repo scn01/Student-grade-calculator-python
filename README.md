@@ -7,30 +7,30 @@ This project demonstrates clean software design, data persistence, statistical c
 
 ---
 
-## ✨ Features
+## Features
 
-- 👤 Add and remove students
-- 📚 Add subjects and multiple assessment components per subject
-- 🧮 Calculate:
+-  Add and remove students
+-  Add subjects and multiple assessment components per subject
+-  Calculate:
   - Subject percentages (weighted)
   - Overall percentage
   - Minimum, maximum, and average grades
-- ✅ Automatic **Pass / Fail** decision (40% threshold)
-- 🎓 **Progression decision** (≥ 50% required)
-- 📊 Visualise grades using **Matplotlib**
+-  Automatic **Pass / Fail** decision (40% threshold)
+-  **Progression decision** (≥ 50% required)
+-  Visualise grades using **Matplotlib**
   - Per subject
   - Overall performance
-- 🔮 **What-If Grade Predictor**
+-  **What-If Grade Predictor**
   - Predict final scores without modifying stored data
-- 💾 storage using CSV files
-- 🛡  error handling
+-  storage using CSV files
+-   Error handling
   - Invalid grades
   - Incorrect weight totals
   - Missing or empty data files
  
  ---
 
-## 🧱 Project Structure
+## Project Structure
 
 student-grade-calculator/
 │
@@ -48,7 +48,7 @@ student-grade-calculator/
 
 ---
 
-## 🧮 How Grades Are Calculated
+## How Grades Are Calculated
 
 Each subject consists of assessment components whose **weights must total 100%**.
 
@@ -60,7 +60,7 @@ Overall percentage is calculated as the **average of all valid subject percentag
 
 ---
 
-## 📊 Visualisation
+## Visualisation
 
 Grades are displayed using bar charts via **Matplotlib**:
 - Subject-wise performance
@@ -70,7 +70,7 @@ All graphs scale automatically between 0 - 100%.
 
 ---
 
-## 🔮 What-If Grade Predictor
+## What-If Grade Predictor
 
 The system allows hypothetical predictions such as:
 
@@ -83,7 +83,7 @@ The predictor:
 
 ---
 
-## 🗃 Data Storage
+## Data Storage
 
 All data is stored using **CSV files** managed by Pandas:
 - Automatically created and repaired if missing or empty
@@ -91,12 +91,12 @@ All data is stored using **CSV files** managed by Pandas:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 ```bash
 python main.py
 ```
 
-### 1️⃣ Install dependencies
+### Install dependencies
 ```bash
 pip install numpy pandas matplotlib
 ```
